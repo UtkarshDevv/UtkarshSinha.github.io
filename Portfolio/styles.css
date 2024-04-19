@@ -1,0 +1,211 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+
+.Navbar{
+    align-items: center;
+    display: flex;
+    border: 5px solid #17202A;
+    border-radius: 5px;
+    background-color: #17202A;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 125%;
+    color: whitesmoke; 
+    font-family: saira;
+    width: 30%;
+}
+.NavItem{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.NavItem li a{
+display: inline;
+text-decoration: none;
+color: white;
+transition: color 0.3s ease;
+}
+
+.NavItem li a:hover{
+    color: orangered;
+}
+
+
+.front-info{
+    width:60vw;
+    margin-top: 10px;
+    color: white;
+    padding-left: 30px;
+    margin-top: 2rem;
+}
+
+
+.front-text{
+    color: #faf8f8;
+  
+    font-family: Regular 400 Italic;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+    .info-parent{
+        display: flex;
+        justify-content: space-around;
+    }
+
+.span-name{
+    color: orangered;
+}
+.pic-card{
+    width:30vw;
+    height: 335px;
+    
+}
+
+.pic-card img{
+    width: 30vw;
+    height: 335px;
+    border: 2px solid #2c61d4;
+    margin-top: 1rem;
+    box-shadow: #2c61d4 2rem;
+    border-radius: 0.5rem;
+}
+
+
+.contact-btn{
+    padding-left: 2vw;
+    padding-top: 4vh;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    font-style: bold;
+    font-size: medium;
+    color: white;
+    background-color: orangered;
+    width: 150px;
+    height: 50px;
+    margin: 8px;
+}
+
+.btnanchor{
+    text-decoration: none;
+    color: white;
+}
+
+.skills-heading{ 
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 8rem;
+    background-color: #e39b2e;
+    border-radius:1rem;
+}
+.row{
+    color: white;
+}
+.ms-3{
+    color: #faf8f8;
+}
+
+.about-container{
+    margin: 5rem;
+}
+
+.form-group{
+    font-weight: bold;
+    text-decoration: solid;
+    padding: 0.8rem;
+}
+
+#contact.form-control{
+padding: 2rem;
+}
+.display-5 fw-bold{
+    color: orangered;
+}
+.why-para-span{
+    padding: .25rem;
+}
+
+.fs-5 mb-4{
+    margin: -10rem;
+    display: inline-flex;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1280px) {
+*{
+    margin: 0%;
+    padding: 0%;
+}
+    .Navbar{
+        display: flex;
+        border: 5px;
+        margin-right: 0rem;
+    }
+    
+    .logo{
+        font-size: 110%;
+    color: white;
+    font-family: fantasy;
+    margin-left: 2%;
+    position: relative;
+    }
+    .NavItem{
+        list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0rem;
+    }
+    
+    .NavItem li a{
+    display: inline;
+    transition: color ease;
+    }
+
+    .NavItem li a:hover{
+        color: orangered;
+    }
+
+    .contact-btn {
+        justify-content: center;
+        display: flex;
+    }
+
+    .btn{
+        font-size: x-small;
+    }
+
+    .d-grid {
+        display: grid !important;
+        align-content: space-around;
+        justify-content: center;
+    }
+}
